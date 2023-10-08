@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-image:url('C:/Users/shaik/Downloads/home.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 1500px 700px;
+    backface-visibility: visible;
+    color:white;
+    background-color: black;
+
+} 
+body::before{
+    opacity:0;
+}
+nav{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+.nav.btn{
+    display:contents;
+    justify-content: center;
+    justify-content: space-around;
+    
+    
+}
+.eng{
+    width: 150px;
+    height:40px;
+    background-color: black;
+    color:white;
+    border: 2px solid white;
+    border-radius: 5px;
+    
+}
+.sign{
+    width: 110px;
+    height:40px;
+    background-color: red;
+    color:white;
+    border-radius:5px;
+    text-align: center;
+    border:none;
+}
+.btn{
+    margin-inline: 22px;
+    padding-top:30px;
+    padding-left: 10px;
+    float:right ;
+}
+.eng:hover{
+    background-color: transparent;
+}
+.main h1{
+    font-size: 50px;
+}
+.main h2{
+    font-size:28px;
+}
+.main p{
+    font-size: 27px;
+}
+.main{
+    text-align: center;
+}
+.input input{
+    width:400px;
+    height:58px;
+    border:none;
+    font-size: 25px;
+}
+.input button{
+    width:200px;
+    height:58px;
+    background-color: red;
+    color:white;
+    font-size: 25px;
+    border:none;
+}
+.input{
+    display: flex;
+    justify-content: center;
+
+}
+.first{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 125px;
+    border-top:4px solid gray;
+    margin-top:90px;
+    margin-bottom: 20px;
+}
+.first h1{
+    font-size:44px;
+    
+    
+}
+.first p{
+    font-size: 20px;
+    text-align: left;
+}
+.buttons h1{
+    text-align:center;
+    margin-top:15px;
+    font-size:44px;
+    border-top:4px solid gray;
+    padding-top: 50px;
+}
+.buttons button{
+    width:1000px;
+    height:60px;
+    background-color:gray;
+    color:white;
+    font-size :30px;
+    margin-left:15%;
+    text-align: left;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding:48px;
+    border-top:4px solid gray;
+    margin-top:53px;
+}
+
+
+
+
+
+
+
